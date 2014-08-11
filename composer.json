@@ -1,0 +1,26 @@
+{
+    "name": "zoya/gearman",
+    "description": "Classes for working with Gearman",
+    "authors": [
+        {
+            "name": "Alexander Tatulchenkov",
+            "email": "webtota@gmail.com"
+        }
+    ],
+    "license": "MIT",
+    "autoload": {
+        "psr-0": {
+            "Zoya": "src/"
+        },
+        "files": ["src/bootstrap.php"]
+    },
+    "require": {
+        "php": ">=5.4",
+        "beberlei/assert": "@stable",
+        "psr/log": "~1.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "~4.0"
+    }
+
+}
